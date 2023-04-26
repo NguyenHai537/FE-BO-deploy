@@ -11,7 +11,7 @@ import { useTheme } from "@mui/material";
 import ReactPaginate from 'react-paginate';
 import { ArrowDropDown } from '@mui/icons-material';
 import "../../components/Pagination.css"
-import { NOTFOUND_URL } from '../../components/URLS/url';
+import { API_URL, NOTFOUND_URL } from '../../components/URLS/url';
 
 
 const EmptyFooter = () => {

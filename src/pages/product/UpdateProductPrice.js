@@ -12,6 +12,7 @@ import KeyboardReturnIcon from '@mui/icons-material/KeyboardReturn';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 import BookmarkAddIcon from '@mui/icons-material/BookmarkAdd';
 import CheckIcon from '@mui/icons-material/Check';
+import { API_URL } from '../../components/URLS/url';
 
 const updatePriceSchema = yup.object().shape({
     price: yup.string().required("Price is required"),

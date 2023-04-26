@@ -5,7 +5,7 @@ import { Grid, Paper, Typography, Box, Button } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Header from '../../components/Header';
 import '../../components/ProductInfo.css'
-import { NOTFOUND_URL } from '../../components/URLS/url';
+import { API_URL, NOTFOUND_URL } from '../../components/URLS/url';
 
 function ProductInfo() {
   const isNonMobile = useMediaQuery("(min-width:600px)");

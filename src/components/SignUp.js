@@ -3,6 +3,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import {useNavigate} from "react-router-dom";
 import { Formik,Field } from "formik";
 import axios from "axios";
+import { API_URL } from "./URLS/url";
 
 export default function SignUp(){
 

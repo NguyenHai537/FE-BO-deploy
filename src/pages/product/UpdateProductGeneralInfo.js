@@ -9,6 +9,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from '../../components/Header';
 import SaveIcon from '@mui/icons-material/Save';
 import KeyboardReturnIcon from '@mui/icons-material/KeyboardReturn';
+import { API_URL } from '../../components/URLS/url';
 
 const updateGeneralSchema = yup.object().shape({
     newName: yup.string().required("Product's Name is required"),

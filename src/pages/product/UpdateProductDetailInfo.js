@@ -13,6 +13,7 @@ import ClearAllIcon from '@mui/icons-material/ClearAll';
 import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 import BurstModeIcon from '@mui/icons-material/BurstMode';
 import CheckIcon from '@mui/icons-material/Check';
+import { API_URL } from '../../components/URLS/url';
 
 const updateDetailSchema = yup.object().shape({
   newSerialNumber: yup.string().required("SerialNumber is required"),

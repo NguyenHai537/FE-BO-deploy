@@ -4,6 +4,7 @@ import { useNavigate, useParams, useLocation } from 'react-router-dom';
 import axios, { HttpStatusCode } from 'axios';
 import { Box,Button, Input,Snackbar } from "@mui/material";
 import Header from "../../components/Header";
+import { API_URL } from '../../components/URLS/url';
 
 export default function UpdateStoreImage() {
 
