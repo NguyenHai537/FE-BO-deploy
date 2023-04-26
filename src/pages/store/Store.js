@@ -157,7 +157,7 @@ function Store() {
               'Authorization': `Bearer ${localStorage.getItem("tokenOwner")}`,
               "Content-Type": "application/json",
             },
-            url: `http://localhost:8080/api/store/${accountUsername}`,
+            url: `${API_URL}/store/${accountUsername}`,
             method: "GET",
           })
           if (res.status === HttpStatusCode.Ok) {
