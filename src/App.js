@@ -43,7 +43,6 @@ function App() {
                             <Route exact path="/product/edit/price/:accountUsername/:serialNumber" element={<UpdateProductPrice/>}/>
                             </Route>               
                   </Routes>
-        
         </ThemeProvider>
       </ColorModeContext.Provider>
     </BrowserRouter>
